@@ -15,6 +15,8 @@ public interface UserMapper {
 			@Param("introduce") String introduce);
 	
 	public User selectLatestUser();
+	
+	public boolean isDuplicationByName(String name);
 }
 
 
